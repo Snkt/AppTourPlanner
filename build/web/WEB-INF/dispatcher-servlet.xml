@@ -23,8 +23,8 @@
         </property>
     </bean>
     
-<!--    <bean name="profileDAO"
+    <bean name="profileDAO"
           class="com.app.tourplanner.dao.impl.ProfileDAOImpl">
-    </bean>-->
+    </bean>
 
 </beans>

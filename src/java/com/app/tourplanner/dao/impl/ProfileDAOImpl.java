@@ -39,8 +39,6 @@ public class ProfileDAOImpl implements ProfileDAO{
     public List<Profile> getAllProfiles() {
         Query query = HibernateUtil.getSessionFactory().openSession().createQuery("from Profile");
         return query.list();
-        
-        
     }
     
 }
